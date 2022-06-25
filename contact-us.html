@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/contact-us.css">
+    <!-- Link Swiper's CSS -->
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <!-- Link for Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <title>Contact Us</title>
+</head>
+
+<body>
+  <div id="header-section">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="img/fxc-logo1.png" alt="Forex Compass Logo" width="156" height="60">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-success" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item me-5">
+              <a class="nav-link active fs-6 fw-bold" aria-current="page" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link fs-6 fw-bold" href="about-us.html">ABOUT US</a>
+            </li>
+            <li class="nav-item dropdown me-5">
+              <a class="nav-link dropdown-toggle fs-6 fw-bold" href="services.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                SERVICES
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Training</a></li>
+                <li><a class="dropdown-item" href="#">Trade Signals</a></li>
+                <li><a class="dropdown-item" href="#">Investment Advice</a></li>
+              </ul>
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link fs-6 fw-bold" href="testimonies.html">TESTIMONIES</a>
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link fs-6 fw-bold" href="contact-us.html">CONTACT US</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <a href="https://t.me/ForexCompass"><button class="btn btn-primary" type="submit">Book a Free Introductory Session</button></a>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div id="contact-info">
+    <div class="container-fluid py-5">
+      <div class="container">
+        <div class="text-center">
+          <h2>Contact Info</h2>
+          <p class="text-secondary">Forex Compass is one the leading Forex trading education center in Nigeria were people are thoroughly groomed and mentored into becoming successful Forex Traders. Whatever your trading experience, our expert analysts and market writers can help you navigate a range of market conditions and trading styles, setting you on the road to consistent and profitable trading.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="contact-form">
+    <div class="container">
+      <h2>Get in Touch</h2>
+      <form class="row g-3">
+        <div class="col-12">
+          <label for="FullName" class="form-label">Full Name</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Surname, then First">
+        </div>
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPhoneNumber" class="form-label">Phone Number</label>
+          <input type="text" class="form-control" id="inputPhoneNumber">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Address</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">City/State</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-4">
+          <label for="inputCountry" class="form-label">Country</label>
+          <select id="inputCountry" class="form-select">
+            <option selected>Choose...</option>
+            <option>...</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">Zip</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Keep Me Updated
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-success">Sign in</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  
+
+
+
+  <script src="js/bootstrap.min.js"></script>
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <!-- Initialize Swiper -->
+  <script>
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    autoplay: {
+      delay: 3600,
+      disableOnInteraction: false,
+    },
+    breakpoints: {
+      425: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 40,
+      },
+      1024: {
+        slidesPerView: 3,
+        spaceBetween: 50,
+      },
+    }
+  });
+  </script>
+
+</body>
+</html>
+
