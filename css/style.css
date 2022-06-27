@@ -12,6 +12,10 @@
     background-color: #124265 !important;
     border-radius: 15px;
 }
+.navbar-toggler {
+    background-color: orange;
+}
+
 
 
 #about-us {
