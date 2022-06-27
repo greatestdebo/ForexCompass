@@ -6,15 +6,27 @@
 
 .text-primary {
     color: #124265 !important;
-  }
-  
+}
 .btn-primary {
     background-color: #124265 !important;
     border-radius: 15px;
 }
+.bg-color-primary {
+    background-color: #124265 !important;
+}
+
 .navbar-toggler {
     background-color: orange;
 }
+
+/* CAROUSEL */
+/* .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+} */
 
 
 
@@ -38,8 +50,8 @@
 }
 #footer-section li {
     list-style: none;
-    
 }
-.bg-color-primary {
-    background-color: #124265 !important;
+#footer-end {
+    background-color: black;
 }
+

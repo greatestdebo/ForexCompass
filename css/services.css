@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.text-primary {
+    color: #124265 !important;
+  }
+  
+.btn-primary {
+    background-color: #124265 !important;
+    border-radius: 15px;
+}
+.navbar-toggler {
+    background-color: orange;
+}
+
+/* CAROUSEL */
+/* .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+} */
+
+
+
+#footer-section {
+    background-color: #124265;
+}
+#footer-section a {
+    text-decoration: none;
+    color: #fff;
+}
+#footer-section li {
+    list-style: none;
+    
+}
+.bg-color-primary {
+    background-color: #124265 !important;
+}
