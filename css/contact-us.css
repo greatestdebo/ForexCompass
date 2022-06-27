@@ -15,6 +15,10 @@
     background-color: #124265 !important;
 }
 
+.navbar-toggler {
+    background-color: orange;
+}
+
 
 #fill-form {
     position: relative;
@@ -36,7 +40,7 @@
 }
 
 .card-body:hover {
-    background-color: rgb(255, 148, 109);
+    background-color: orange;
 }
 
 #fill-form {
