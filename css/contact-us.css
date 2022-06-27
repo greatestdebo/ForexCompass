@@ -6,17 +6,22 @@
 
 .text-primary {
     color: #124265 !important;
-  }
-  
+}  
 .btn-primary {
     background-color: #124265 !important;
 }
-
-
-#contact-info {
-    background-color: #F5F5F5;
+.bg-color-primary {
+    background-color: #124265 !important;
 }
 
+#contact {
+    background: url(../img/carousel-1.jpg);
+    background-size:contain;
+}
+
+#fill-form {
+    background-color: aliceblue;
+}
 
 
 #footer-section {
@@ -30,6 +35,4 @@
     list-style: none;
     
 }
-.bg-color-primary {
-    background-color: #124265 !important;
-}
+
