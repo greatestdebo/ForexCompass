@@ -16,16 +16,6 @@
     background-color: orange;
 }
 
-/* CAROUSEL */
-/* .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-    width: 100%;
-    padding-right: 0;
-    padding-left: 0;
-    margin-right: auto;
-    margin-left: auto;
-} */
-
-
 
 #footer-section {
     background-color: #124265;
@@ -36,8 +26,11 @@
 }
 #footer-section li {
     list-style: none;
-    
 }
-.bg-color-primary {
-    background-color: #124265 !important;
+#footer-end {
+    background-color: black;
+}
+
+.socials {
+    border-radius: 0 12% 0 12%;
 }

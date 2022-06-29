@@ -34,8 +34,11 @@
 }
 #footer-section li {
     list-style: none;
-    
 }
-.bg-color-primary {
-    background-color: #124265 !important;
+#footer-end {
+    background-color: black;
+}
+
+.socials {
+    border-radius: 0 12% 0 12%;
 }
