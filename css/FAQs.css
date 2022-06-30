@@ -36,5 +36,24 @@
 .socials {
     border-radius: 0 12% 0 12%;
 }
-
 /* END OF FOOTER SECTION */
+
+
+#faq {
+    position: relative;
+    background: rgb(255, 230, 185);
+}
+#faq::before {
+    content: "";
+    background: url(../img/carousel-1.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.1;
+}
+h2 {
+    position: relative;
+}

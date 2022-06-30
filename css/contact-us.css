@@ -21,12 +21,15 @@
 
 
 .card-body:hover {
-    background-color: orange;
+    background-color: rgb(246 133 79);
+}
+.card-body:hover a {
+    color: #fff;
 }
 
 #contact {
     position: relative;
-    background: #fff;
+    background: silver;
 }
 #contact::before {
     content: "";
