@@ -15,9 +15,7 @@
     background-color: #124265 !important;
 }
 
-.navbar-toggler {
-    background-color: orange;
-}
+
 /* FOOTER STYLING */
 #footer-section {
     background-color: #124265;
@@ -37,3 +35,13 @@
     border-radius: 0 12% 0 12%;
 }
 /* END OF FOOTER SECTION */
+
+
+#company {
+    background-color: #fff;
+}
+
+
+#services {
+    background-color: #F5F5F5;
+}
