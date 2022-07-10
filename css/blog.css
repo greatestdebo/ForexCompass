@@ -16,6 +16,11 @@
 }
 
 
+.feat-post:hover {
+    background-color: aqua;
+}
+
+
 /* FOOTER STYLING */
 #footer-section {
     background-color: #124265;
