@@ -15,11 +15,17 @@
     background-color: #124265 !important;
 }
 
-
-.feat-post:hover {
-    background-color: aqua;
+/* BREADCRUMB */
+#crumb {
+    background: url(../img/slider-banner.jpg);
+    background-size: cover;
 }
-
+.breadcrumb-item+.breadcrumb-item::before {
+    color: #fff;
+}
+.breadcrumb-item a {
+    color: #fff;
+}
 
 /* FOOTER STYLING */
 #footer-section {
@@ -40,13 +46,3 @@
     border-radius: 0 12% 0 12%;
 }
 /* END OF FOOTER SECTION */
-
-
-#company {
-    background-color: #fff;
-}
-
-
-#services {
-    background-color: #F5F5F5;
-}

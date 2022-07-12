@@ -15,6 +15,17 @@
     background-color: #124265 !important;
 }
 
+/* BREADCRUMB */
+#crumb {
+    background: url(../img/slider-banner.jpg);
+    background-size: cover;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    color: #fff;
+}
+.breadcrumb-item a {
+    color: #fff;
+}
 
 /* FOOTER STYLING */
 #footer-section {
