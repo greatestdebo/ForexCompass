@@ -50,3 +50,19 @@
 
 
 
+.service-intro .divider {
+    height: 3px;
+    width: 70px;
+    background: linear-gradient(to right, indigo, blue);
+    margin:auto;
+}
+
+
+
+
+
+
+
+
+
+
