@@ -49,7 +49,7 @@
 
 
 
-
+/* SERVICE SECTION */
 .service-intro .divider {
     height: 3px;
     width: 70px;
@@ -57,6 +57,69 @@
     margin:auto;
 }
 
+.service .service-img {
+    position: relative;
+}
+
+.service .service-img .icon {
+    height: 90px;
+    width: 90px;
+    background: linear-gradient(to right, indigo, blue);
+    color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -45px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* ABOUT US SECTION */
+#about-us .divider {
+    height: 3px;
+    width: 70px;
+    background: linear-gradient(to right, indigo, blue);
+    margin:auto;
+}
+
+/* OUR FEATURES */
+#features .divider {
+    height: 3px;
+    width: 70px;
+    background: linear-gradient(to right, indigo, blue);
+    margin:auto;
+}
+
+.about-us-video {
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 560px) {
+    .about-us-video {
+      overflow: hidden;
+      padding-bottom: 56.25%;
+      position: relative;
+      height: 0;
+    }
+    .about-us-video iframe {
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 90%;
+      margin-left: 5%;
+      position: absolute;
+    }
+  }
+
+  /* FEATURES SECTION */
+  #features i {
+    background: -webkit-linear-gradient(indigo, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+  }
+  #features .col-md-4:hover {
+    background: #fff;
+  }
 
 
 
