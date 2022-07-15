@@ -38,16 +38,11 @@
 /* END OF FOOTER SECTION */
 
 
-#about-us {
-    background-color: #fff;
+
+.bg-cover {
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-
-
-#services {
-    background-color: #F5F5F5;
-}
-
-
 
 /* SERVICE SECTION */
 .service-intro .divider {
@@ -112,7 +107,7 @@
 
   /* FEATURES SECTION */
   #features i {
-    background: -webkit-linear-gradient(indigo, blue);
+    background: -webkit-linear-gradient(purple, blue);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 60px;
@@ -121,8 +116,13 @@
     background: #fff;
   }
 
-
-
+/* REVIEWS SECTION */
+#review .divider {
+    height: 3px;
+    width: 70px;
+    background: linear-gradient(to right, indigo, blue);
+    margin:auto;   
+}
 
 
 
