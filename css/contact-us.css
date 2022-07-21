@@ -56,25 +56,52 @@
     color: #fff;
 }
 
-#contact {
+/* #contact {
     position: relative;
-    background: silver;
+    background: url(../img/carousel-1.jpg);
+    background-size: cover;
 }
 #contact::before {
     content: "";
-    background: url(../img/carousel-1.jpg);
-    background-size: cover;
+    display: block;
     position: absolute;
     top: 0px;
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.1;
+    background: black;
+    opacity: 0.7;
 }
-iframe {
+#contact p, h2 {
     position: relative;
 }
 
+iframe {
+    position: relative;
+} */
+
+
 #fill-form {
-    background: rgb(255, 201, 100);
+    position: relative;
+    background: url(../img/carousel-1.jpg);
+    background-size: cover;
+}
+#fill-form::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background: black;
+    opacity: 0.6;
+}
+
+.form-side {
+    position: relative;
+}
+
+.form-label {
+    color: #fff;
 }
