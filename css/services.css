@@ -3,17 +3,16 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
 /* HEADER STYLING */
 .text-primary {
     color: #252953 !important;
 }
-.btn-primary {
-    background-color: #252953 !important;
-    border-radius: 15px;
-}
 .bg-color-primary {
     background-color: #124265 !important;
 }
+
 
 /* BREADCRUMB */
 #crumb {
@@ -26,6 +25,7 @@
 .breadcrumb-item a {
     color: #fff;
 }
+
 
 /* FOOTER STYLING */
 #footer-section {
@@ -41,21 +41,32 @@
 #footer-end {
     background-color: black;
 }
-
 .socials {
     border-radius: 0 12% 0 12%;
 }
 /* END OF FOOTER SECTION */
 
 
+/* PRICING STYLING */
 .card:hover {
     border: 2px solid #0d6efd;
+}
+.card:hover .card-body2 {
+    background-color:rgb(231, 230, 230);
+}
+.card:hover .card-body3 {
+    background-color: rgb(255, 244, 184);
 }
 
 .card:hover .card-header {
     background-color: #0d6efd;
 }
-
 .card:hover .card-header h4 {
     color: #fff;
 }
+
+
+
+
+
+
