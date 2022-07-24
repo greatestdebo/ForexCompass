@@ -4,16 +4,7 @@
     box-sizing: border-box;
 }
 /* HEADER STYLING */
-.text-primary {
-    color: #252953 !important;
-}
-.btn-primary {
-    background-color: #252953 !important;
-    border-radius: 15px;
-}
-.bg-color-primary {
-    background-color: #124265 !important;
-}
+
 
 /* NAVBAR STYLING */
 .navbar-nav .btn {
@@ -29,15 +20,8 @@
     background-color: #124265;
 }
 
+
 /* CAROUSEL STYLING */
-
-/* .carousel-item {
-    height: 100vh;
-    min-height: 300px;
-    background: no-repeat scroll center scroll;
-    background-size: cover;
-} */
-
 .carousel-item::before {
     content: "";
     display: block;
@@ -66,6 +50,9 @@
     font-size: 1rem;
 }
 
+.slider-btn .btn-1 {
+    margin-right: 10px;
+}
 .slider-btn .btn-2 {
     background-color: #fff;
     color: black;
@@ -216,6 +203,17 @@
 
     .lead {
         font-size: medium;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .carousel-caption h5 {
+        font-size:xx-large;
+    }
+    .carousel-caption p {
+        font-size:large;
+        padding-bottom: 0;
     }
 
 }
