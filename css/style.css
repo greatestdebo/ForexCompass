@@ -92,7 +92,7 @@
 .service-intro .divider {
     height: 3px;
     width: 70px;
-    background: linear-gradient(to right, indigo, blue);
+    background: linear-gradient(to right, navy, #0d6efd);
     margin:auto;
 }
 
@@ -103,7 +103,7 @@
 .service .service-img .icon {
     height: 90px;
     width: 90px;
-    background: linear-gradient(to right, indigo, blue);
+    background: linear-gradient(to right, navy, #0d6efd);
     color: #fff;
     border-radius: 50%;
     position: absolute;
@@ -116,7 +116,7 @@
 #about-us .divider {
     height: 3px;
     width: 70px;
-    background: linear-gradient(to right, indigo, blue);
+    background: linear-gradient(to right, blue, #0d6efd);
     margin:auto;
 }
 
@@ -124,32 +124,14 @@
 #features .divider {
     height: 3px;
     width: 70px;
-    background: linear-gradient(to right, indigo, blue);
+    background: linear-gradient(to right, navy, #0d6efd);
     margin:auto;
 }
 
   
-  /* @media screen and (max-width: 560px) {
-    .about-us-video {
-      overflow: hidden;
-      padding-bottom: 56.25%;
-      position: relative;
-      height: 0;
-    }
-    .about-us-video iframe {
-      left: 0;
-      top: 0;
-      height: 100%;
-      width: 80%;
-      margin-left: 10%;
-      position: absolute;
-    }
-  } */
-
-
   /* FEATURES SECTION */
   #features i {
-    background: -webkit-linear-gradient(purple, blue);
+    background: -webkit-linear-gradient(navy, blue);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 60px;
@@ -162,7 +144,7 @@
 #review .divider {
     height: 3px;
     width: 70px;
-    background: linear-gradient(to right, indigo, blue);
+    background: linear-gradient(to right, navy, #0d6efd);
     margin:auto;   
 }
 
@@ -179,6 +161,14 @@
 
 
 @media (max-width: 575px) {
+    .nav-item a {
+        font-size: small;
+        padding: 5px;
+    }
+    .book-session .btn {
+        font-size: small;
+        margin: 10px 0;
+    }
     .d-xs-block {
         display: block!important;
     }

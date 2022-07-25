@@ -6,12 +6,7 @@
 
 
 /* HEADER STYLING */
-.text-primary {
-    color: #252953 !important;
-}
-.bg-color-primary {
-    background-color: #124265 !important;
-}
+
 
 
 /* BREADCRUMB */
@@ -65,6 +60,24 @@
     color: #fff;
 }
 
+
+
+/* MEDIA QUERY */
+
+@media (max-width: 575px) {
+    .nav-item a {
+        font-size: small;
+        padding: 5px;
+    }
+    .book-session .btn {
+        font-size: small;
+        margin: 10px 0;
+    }
+
+    .lead {
+        font-size: medium;
+    }
+}
 
 
 
