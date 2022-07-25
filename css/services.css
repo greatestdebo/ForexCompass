@@ -79,6 +79,12 @@
     }
 }
 
+@media (min-width: 768px) {
+    .mentorship-perks li {
+        font-size: large;
+    }
+}
+
 
 
 
