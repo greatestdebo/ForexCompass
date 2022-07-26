@@ -45,20 +45,19 @@
 /* PRICING STYLING */
 .card:hover {
     border: 2px solid #0d6efd;
+    background-color: #fff;
 }
-.card:hover .card-body2 {
+.bg-bronze {
+    background-color: #fddbb8;
+}
+.bg-silver {
     background-color:rgb(231, 230, 230);
 }
-.card:hover .card-body3 {
-    background-color: rgb(255, 244, 184);
+.bg-gold {
+    background-color: rgb(253, 237, 145);
 }
 
-.card:hover .card-header {
-    background-color: #0d6efd;
-}
-.card:hover .card-header h4 {
-    color: #fff;
-}
+
 
 
 
@@ -79,10 +78,14 @@
     }
 }
 
+
 @media (min-width: 768px) {
-    .mentorship-perks li {
-        font-size: large;
-    }
+    /* .bitches {
+        display: flex;
+        flex-direction: row;
+    } */
+
+
 }
 
 
