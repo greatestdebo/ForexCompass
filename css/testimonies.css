@@ -3,17 +3,13 @@
     margin: 0;
     box-sizing: border-box;
 }
-/* HEADER STYLING */
+
 .text-primary {
-    color: #252953 !important;
+    color: blue !important;
 }
-.btn-primary {
-    background-color: #252953 !important;
-    border-radius: 15px;
-}
-.bg-color-primary {
-    background-color: #124265 !important;
-}
+
+/* HEADER STYLING */
+
 
 /* BREADCRUMB */
 #crumb {

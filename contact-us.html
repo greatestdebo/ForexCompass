@@ -17,7 +17,7 @@
 </head>
 
 <body>
-  <div id="header-section" class="bg-light pb-3">
+  <div id="header-section" class="bg-light">
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container">
         <a class="navbar-brand" href="#">
@@ -29,30 +29,30 @@
         <div class="collapse navbar-collapse text-success" id="navbarNavDropdown">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item me-5">
-              <a class="nav-link active fs-6 text-dark" aria-current="page" href="index.html">HOME</a>
+              <a class="nav-link active text-dark" aria-current="page" href="index.html">HOME</a>
             </li>
             <li class="nav-item me-5">
-              <a class="nav-link fs-6 text-dark" href="about-us.html">ABOUT US</a>
+              <a class="nav-link text-dark" href="about-us.html">ABOUT US</a>
             </li>
             <li class="nav-item dropdown me-5">
-              <a class="nav-link dropdown-toggle fs-6 text-dark" href="services.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle text-dark" href="services.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 SERVICES
               </a>
-              <ul class="dropdown-menu bg-light" aria-labelledby="navbarDropdownMenuLink">
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <li><a class="dropdown-item text-dark" href="services.html">Training</a></li>
                 <li><a class="dropdown-item text-dark" href="services.html">Trade Signals</a></li>
                 <li><a class="dropdown-item text-dark" href="services.html">Investment Advice</a></li>
               </ul>
             </li>
             <li class="nav-item me-5">
-              <a class="nav-link fs-6 text-dark" href="blog.html">BLOG</a>
+              <a class="nav-link text-dark" href="blog.html">BLOG</a>
             </li>
             <li class="nav-item me-5">
-              <a class="nav-link fs-6 text-dark" href="contact-us.html">CONTACT US</a>
+              <a class="nav-link text-dark" href="contact-us.html">CONTACT US</a>
             </li>
           </ul>
-          <form class="d-flex">
-            <a href="https://t.me/ForexCompass"><button class="btn btn-warning" type="submit">Book a Free Introductory Session</button></a>
+          <form class="d-flex book-session">
+            <a href="https://t.me/ForexCompass"><button class="btn btn-success" type="submit">Book a Free Introductory Session</button></a>
           </form>
         </div>
       </div>
@@ -312,7 +312,8 @@
   <div id="contact" class="bg-light">
     <div class="container">
       <div class="text-center pt-5">
-        <h2>Contact Info</h2>
+        <h2 class="text-primary">Contact Info</h2>
+        <div class="divider"></div>
         <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis sed, enim ipsam quibusdam eius et. Unde, minus dolorum nemo rem porro dolorem exercitationem temporibus asperiores a. Deleniti, pariatur impedit. Ducimus?</p>
       </div>
       <div class="row d-flex justify-content-center">
@@ -402,19 +403,19 @@
                   <li class="py-2"><a href="index.html">Home</a></li>
                   <li class="py-2"><a href="about-us.html">About Us</a></li>
                   <li class="py-2"><a href="services.html">Services</a></li>
-                  <li class="py-2"><a href="testimonies.html">Testimonies</a></li>
-                  <li class="py-2"><a href="contact-us.html">Contact Us</a></li>
                   <li class="py-2"><a href="blog.html">Blog</a></li>
+                  <li class="py-2"><a href="contact-us.html">Contact Us</a></li>
+                  <li class="py-2"><a href="book-free-session.html">Book A Free Session</a></li>
                 </ul>
               </div>
               <div class="col-6">
                 <ul class="footer-list">
-                  <li class="py-2"><a href="#">Disclaimer</a></li>
-                  <li class="py-2"><a href="market-outlook.html">Trade of the Week</a></li>
-                  <li class="py-2"><a href="services.html">Our Broker</a></li>
+                  <li class="py-2"><a href="terms-of-use.html">Terms of Use</a></li>
+                  <li class="py-2"><a href="privacy.html">Privacy Policy</a></li>
+                  <li class="py-2"><a href="disclaimer.html">Disclaimer</a></li>
                   <li class="py-2"><a href="testimonies.html">Testimonies</a></li>
                   <li class="py-2"><a href="FAQs.html">FAQs</a></li>
-                  <li class="py-2"><a href="risk-disclosure.html">Risk Disclosure</a></li>
+                  <li class="py-2"><a href="contact-us.html">Advertise With Us</a></li>
                 </ul>
               </div>
             </div>
@@ -422,7 +423,7 @@
           <div class="col-lg-4 col-md-8 col-12 my-4 text-light">
             <div class="call-us pb-5">
               <h2 class="fw-bold fs-1">+2347084514816</h2>
-              <a href="tel:2347084514816"><h5>Give us a call</h5></a>
+              <h5>Give us a call</h5>
             </div>
             <h4>Subscribe Now</h4>
             <p>Never miss an update from us. Subscribe to our newsletter here</p>
@@ -430,18 +431,18 @@
               <input class="form-control me-2 my-3" type="email" name="email" placeholder="Email Address" aria-label="Newsletter">
             </div>
             <div>
-              <button class="btn btn-warning text-primary" type="submit">Subscribe</button>
+              <button class="btn btn-warning" type="submit">Subscribe</button>
             </div>
           </div>
 
           <div class="disclaimer mb-5 text-center pt-5">
-            <p class="text-light fw-light"><b class="text-warning">Disclaimer: </b>Trading leveraged products like: Forex, CFDs & Cyptocurrency is risky and you may lose your capital. <a href="risk-disclosure.html" class="text-warning">click here to read full risk disclosure</a></p>
+            <p class="text-light fw-light"><b class="text-warning">Risk Disclosure: </b>Trading leveraged products like: Forex, CFDs & Cyptocurrency is risky and you may lose your capital. <a href="disclaimer.html" class="text-warning">click here to read full Disclaimer</a></p>
           </div>
         </div>
 
         <div class="text-center text-light">
           <p class="mb-0 fw-light"><b>Forex Compass | </b>© Copyright 2022 All Rights Reserved</p>
-          <p><b>Developed by </b>Greatestdebo</p>
+          <p class="mb-0 pb-3"><b>Developed by </b>Greatestdebo</p>
         </div>
       </div>
     </div>

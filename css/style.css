@@ -145,14 +145,6 @@
 
 
 @media (max-width: 575px) {
-    .nav-item a {
-        font-size: small;
-        padding: 5px;
-    }
-    .book-session .btn {
-        font-size: small;
-        margin: 10px 0;
-    }
     .d-xs-block {
         display: block!important;
     }

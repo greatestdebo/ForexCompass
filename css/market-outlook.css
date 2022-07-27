@@ -3,10 +3,12 @@
     margin: 0;
     box-sizing: border-box;
 }
-/* HEADER STYLING */
+
 .text-primary {
     color: blue !important;
 }
+
+/* HEADER STYLING */
 
 
 /* BREADCRUMB */
@@ -41,46 +43,6 @@
 }
 /* END OF FOOTER SECTION */
 
-
-#faq {
-    position: relative;
-    background: url(../img/carousel-1.jpg);
-    background-size: cover;
-}
-#faq::before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background: black;
-    opacity: 0.7;
-}
-h2 {
-    position: relative;
-}
-p {
-    position: relative;
-}
-.accordion {
-    position: relative;
-}
-
-.accordion-button {
-    color: blue;
-    background-color: #e7f1ff;
-}
-
-
-
-
-
-@media (max-width: 575px) {
-
-    .lead {
-        font-size: medium;
-    }
-
+#video-testimonies {
+    text-align: center;
 }

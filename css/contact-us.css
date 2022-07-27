@@ -3,17 +3,13 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
 /* HEADER STYLING */
 .text-primary {
-    color: #252953 !important;
+    color: blue !important;
 }
-.btn-primary {
-    background-color: #252953 !important;
-    border-radius: 15px;
-}
-.bg-color-primary {
-    background-color: #124265 !important;
-}
+
 
 /* BREADCRUMB */
 #crumb {
@@ -47,13 +43,21 @@
 }
 /* END OF FOOTER SECTION */
 
+.divider {
+    height: 3px;
+    width: 70px;
+    background: linear-gradient(to right, navy, #0d6efd);
+    margin:auto;
+}
 
 .card-body:hover {
     background-color: rgb(246 133 79);
+    border-radius: 5px;
 }
 .card-body:hover a {
     color: #fff;
 }
+
 
 
 /* FORM STYLING */
@@ -80,4 +84,14 @@
 
 .form-label {
     color: #fff;
+}
+
+
+
+@media (max-width: 575px) {
+
+    .lead {
+        font-size: medium;
+    }
+
 }
