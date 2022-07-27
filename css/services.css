@@ -43,15 +43,17 @@
 
 
 /* PRICING STYLING */
+
 .card:hover {
     border: 2px solid #0d6efd;
     background-color: #fff;
 }
+
 .bg-bronze {
     background-color: #fddbb8;
 }
 .bg-silver {
-    background-color:rgb(231, 230, 230);
+    background-color:rgb(215, 215, 215);
 }
 .bg-gold {
     background-color: rgb(253, 237, 145);
@@ -78,15 +80,6 @@
     }
 }
 
-
-@media (min-width: 768px) {
-    /* .bitches {
-        display: flex;
-        flex-direction: row;
-    } */
-
-
-}
 
 
 

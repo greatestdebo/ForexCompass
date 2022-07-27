@@ -3,8 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
-/* HEADER STYLING */
 
+.text-primary {
+    color: blue !important;
+}
 
 /* NAVBAR STYLING */
 .navbar-nav .btn {
@@ -89,6 +91,11 @@
 }
 
 /* SERVICE SECTION */
+
+#our-services img {
+    border: 2px solid blue;
+}
+
 .service-intro .divider {
     height: 3px;
     width: 70px;
