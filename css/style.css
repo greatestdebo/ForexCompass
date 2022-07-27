@@ -8,6 +8,13 @@
     color: blue !important;
 }
 
+.divider {
+    height: 3px;
+    width: 70px;
+    background: linear-gradient(to right, navy, #0d6efd);
+    margin:auto;
+}
+
 /* NAVBAR STYLING */
 .navbar-nav .btn {
     background-color: orangered;
@@ -96,13 +103,6 @@
     border: 2px solid blue;
 }
 
-.service-intro .divider {
-    height: 3px;
-    width: 70px;
-    background: linear-gradient(to right, navy, #0d6efd);
-    margin:auto;
-}
-
 .service .service-img {
     position: relative;
 }
@@ -119,23 +119,7 @@
     transform: translateX(-50%);
 }
 
-/* ABOUT US SECTION */
-#about-us .divider {
-    height: 3px;
-    width: 70px;
-    background: linear-gradient(to right, blue, #0d6efd);
-    margin:auto;
-}
 
-/* OUR FEATURES */
-#features .divider {
-    height: 3px;
-    width: 70px;
-    background: linear-gradient(to right, navy, #0d6efd);
-    margin:auto;
-}
-
-  
   /* FEATURES SECTION */
   #features i {
     background: -webkit-linear-gradient(navy, blue);
@@ -148,13 +132,6 @@
   }
 
 /* REVIEWS SECTION */
-#review .divider {
-    height: 3px;
-    width: 70px;
-    background: linear-gradient(to right, navy, #0d6efd);
-    margin:auto;   
-}
-
 .testimonial-person {
     text-align: center;
   }
