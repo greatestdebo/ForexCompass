@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+.text-primary {
+    color: blue !important;
+}
 
 /* HEADER STYLING */
 
