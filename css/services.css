@@ -8,6 +8,13 @@
     color: blue !important;
 }
 
+.divider {
+    height: 3px;
+    width: 70px;
+    background: linear-gradient(to right, navy, #0d6efd);
+    margin:auto;
+}
+
 /* HEADER STYLING */
 
 
@@ -42,9 +49,35 @@
 
 /* PRICING STYLING */
 
-.card:hover {
+/* .card:hover {
     border: 2px solid #0d6efd;
     background-color: #fff;
+}
+
+.bg-bronze {
+    background-color: #fddbb8;
+}
+.bg-silver {
+    background-color:rgb(215, 215, 215);
+}
+.bg-gold {
+    background-color: rgb(253, 237, 145);
+} */
+
+
+
+.card:hover {
+    border: 2px solid #0d6efd;
+    background-color: black;
+}
+.card:hover li {
+    color: #fff;
+}
+.card:hover h1 {
+    color: #fff;
+}
+.card:hover .cents {
+    color: #fff;
 }
 
 .bg-bronze {
