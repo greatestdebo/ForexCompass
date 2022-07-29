@@ -48,27 +48,11 @@
 
 
 /* PRICING STYLING */
-
-/* .card:hover {
+.card {
     border: 2px solid #0d6efd;
-    background-color: #fff;
 }
-
-.bg-bronze {
-    background-color: #fddbb8;
-}
-.bg-silver {
-    background-color:rgb(215, 215, 215);
-}
-.bg-gold {
-    background-color: rgb(253, 237, 145);
-} */
-
-
-
 .card:hover {
-    border: 2px solid #0d6efd;
-    background-color: black;
+    background-color: #212529;
 }
 .card:hover li {
     color: #fff;
@@ -97,14 +81,6 @@
 /* MEDIA QUERY */
 
 @media (max-width: 575px) {
-    .nav-item a {
-        font-size: small;
-        padding: 5px;
-    }
-    .book-session .btn {
-        font-size: small;
-        margin: 10px 0;
-    }
 
     .lead {
         font-size: medium;
