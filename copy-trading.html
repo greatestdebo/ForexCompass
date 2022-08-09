@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/copy-trading.css">
 
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
   <!-- FONT AWESOME -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- EXTRA LINKS FROM EXAMPLE -->
@@ -68,6 +70,87 @@
           <li class="breadcrumb-item active text-white" aria-current="page">Copy Trading</li>
         </ol>
       </nav>
+    </div>
+  </div>
+
+  <div id="intro">
+    <div class="container">
+      
+    </div>
+  </div>
+
+  <div id="benefit-risk">
+    <div class="container">
+      <h2 class="text-center py-4">The Benefits and Risks of Copy Trading</h2> 
+      <div class="row">
+        <div class="col-md-6">
+          <h4>Benefits</h4>
+          <p>The advantages of copy trading are the reason it has become so popular.</p>
+          <p>What is the goal?<br>
+            To find traders that have a strong track record and trading style that you want to emulate. So you can spread your risk across your portfolio which will enable you to ride the ups and downs in markets so that you can trade over the long-term.</p>
+          <p>Accessibility <br>
+            Copy trading offers an interesting and reachable route into trading. Huge advances in social trading and the multiple social trading networks means this is now freely available.</p>
+          <p>Upskill your own trading knowledge <br>
+            Copy trading allows you to follow the trading activity of experienced traders, some of whom have years of expertise and know-how. You can learn from watching by replicating their success and developing your own trading.</p>
+          <p>Free time <br>
+            you can continue to trade in the markets throughout the day as someone you have chosen is monitoring them and trading. This means you can spend time on your other hobbies!</p>
+        </div>
+        <div class="col-md-6">
+          <h4>Risks</h4>
+          <p>The main risk with copy trading is an obvious one – you are taking part in some risk with financial implications. Trading by its nature is a high risk, high reward endeavour.</p>
+          <p>Market risk <br>
+            copy trading, like with any trading in financial markets, involves putting some of your capital at risk. Inevitably, the market risk associated with this means you can lose that capital as the assets your chosen trader has bought and sold may be prove unsuccessful.</p>
+            <p>Trader Histories <br>
+              choosing a long-term reliable trader to copy can be difficult. It is up to you to do your own homework to make sure you understand your chosen traders. Sometimes, results can be too good to be true, or a trader is going through a hot streak which means a drawdown is close by.</p>
+              <p></p>
+        </div>
+      </div>     
+    </div>
+  </div>
+
+  <div id="steps">
+    <div class="container">
+      <h2 class="text-center py-4">5 Steps to Start Copy Trading</h2>
+
+
+      <div class="slider-section class">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="testimonial-person">
+                <img src="img/testimonials-1.jpg" alt="Testimonial 1" class="img-fluid">
+                <h5>Choose a Strategy Manager</h5>
+              </div> 
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial-person">
+                <img src="img/testimonials-1.jpg" alt="Testimonial 1" class="img-fluid">
+                <h5>Make a deposit – starting from $5,000</h5>
+              </div> 
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial-person">
+                <img src="img/testimonials-1.jpg" alt="Testimonial 1" class="img-fluid">
+                <h5>Automatically copy the Strategy</h5>
+              </div> 
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial-person">
+                <img src="img/testimonials-1.jpg" alt="Testimonial 1" class="img-fluid">
+                <h5>Cash in when they profit</h5>
+              </div> 
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial-person">
+                <img src="img/testimonials-1.jpg" alt="Testimonial 1" class="img-fluid">
+                <h5>Share a percentage with the Strategy Manager</h5>
+              </div> 
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
     </div>
   </div>
 
@@ -148,6 +231,37 @@
   
   <script src="js/bootstrap.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <!-- Initialize Swiper -->
+  <script>
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    autoplay: {
+      delay: 3600,
+      disableOnInteraction: false,
+    },
+    breakpoints: {
+      426: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+      768: {
+        slidesPerView: 1,
+        spaceBetween: 40,
+      },
+      1024: {
+        slidesPerView: 5,
+        spaceBetween: 50,
+      },
+    }
+  });
+  </script>
 
 </body>
 </html>
