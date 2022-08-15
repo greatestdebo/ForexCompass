@@ -181,7 +181,7 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
     .carousel-item::before {
-        opacity: 0.5;
+        opacity: 0.4;
     }
     .carousel-caption {
         bottom: 50px;

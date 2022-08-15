@@ -45,33 +45,6 @@
 /* END OF FOOTER SECTION */
 
 
-/* PRICING STYLING */
-.card {
-    border: 2px solid #0d6efd;
-}
-.card-dark:hover {
-    background-color: #212529;
-}
-.card-dark:hover li {
-    color: #fff;
-}
-.card-dark:hover h1 {
-    color: #fff;
-}
-.card-dark:hover .cents {
-    color: #fff;
-}
-
-.bg-bronze {
-    background-color: #fddbb8;
-}
-.bg-silver {
-    background-color:rgb(215, 215, 215);
-}
-.bg-gold {
-    background-color: rgb(253, 237, 145);
-}
-
 
 /* REVIEWS SECTION */
 .testimonial-person {
@@ -102,10 +75,6 @@
     .lead {
         font-size: medium;
     }
-
-    /* #training .container .pricing .row .mentorship {
-        order: 3;
-    } */
 
 }
 
