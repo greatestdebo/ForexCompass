@@ -70,3 +70,11 @@
       position: absolute;
     }
   }
+
+  .ceo-profile img {
+    border: 2px solid blue;
+  }
+
+  .card {
+    border: 2px solid blue;
+  }
