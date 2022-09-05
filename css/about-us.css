@@ -25,6 +25,14 @@
     color: #fff;
 }
 
+.divider {
+    height: 3px;
+    width: 70px;
+    background: linear-gradient(to right, navy, #0d6efd);
+    margin:auto;
+}
+
+
 /* FOOTER STYLING */
 #footer-section a {
     text-decoration: none;
@@ -69,7 +77,17 @@
       margin-left: 5%;
       position: absolute;
     }
+
+    .lead {
+        font-size:large;
+    }
   }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    .lead {
+        font-size: large;
+    }
+}
 
   .ceo-profile img {
     border: 2px solid blue;

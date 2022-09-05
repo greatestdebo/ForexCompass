@@ -412,6 +412,70 @@
     </div>
   </div>
 
+  <div id="gallery">
+    <div class="container">
+      <h2 class="text-center text-primary">Our Gallery</h2>
+      <div class="divider"></div>
+      <div class="pictures py-3">
+        <div class="swiper mySwiperL">
+          <div class="swiper-wrapper pb-5">
+            <div class="swiper-slide">
+              <div class="gallery-pic">
+                <img src="img/img7.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="gallery-pic">
+                <img src="img/img8.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="gallery-pic">
+                <img src="img/img10.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="gallery-pic">
+                <img src="img/img11.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="gallery-pic">
+                <img src="img/img12.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="gallery-pic">
+                <img src="img/img7.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="gallery-pic">
+                <img src="img/img8.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="gallery-pic">
+                <img src="img/img10.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="gallery-pic">
+                <img src="img/img11.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="gallery-pic">
+                <img src="img/img12.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- BLOG -->
   <div id="blog-post" class="bg-light" data-aos="fade-up">
     <div class="container my-4">
@@ -617,6 +681,37 @@
     }
   });
   </script>
+
+  <!-- Gallery Pictures Slider -->
+  <script>
+  var swiper = new Swiper(".mySwiperL", {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    autoplay: {
+      delay: 4800,
+      disableOnInteraction: false,
+    },
+    breakpoints: {
+      425: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+      768: {
+        slidesPerView: 1,
+        spaceBetween: 40,
+      },
+      1024: {
+        slidesPerView: 2,
+        spaceBetween: 50,
+      },
+    }
+  });
+  </script>
+
   <!-- Counter Animation -->
   <script>
     $(document).ready(function(){
